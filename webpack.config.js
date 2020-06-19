@@ -6,9 +6,8 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.join(__dirname, 'lib'),
-    filename: 'bundle.js',
-    libraryTarget: 'commonjs2',
-    // libraryTarget: 'umd',
+    filename: 'index.js',
+    libraryTarget: 'umd',
     // globalObject: 'this'
   },
   module: {

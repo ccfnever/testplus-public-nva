@@ -1,2 +1,2 @@
 import PublicNav from './components/PublicNav'
-export { PublicNav }
+export default PublicNav 
