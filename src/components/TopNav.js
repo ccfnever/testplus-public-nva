@@ -44,7 +44,7 @@ const TopNav = (props) => {
         质量中心统一平台
         </a>
       </div>
-      <div><UserInfo /></div>
+      <div><UserInfo {...props} /></div>
     </header >
   )
 }
